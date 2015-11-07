@@ -1,0 +1,261 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="12dp"
+    android:paddingRight="12dp">
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="13dp"
+        android:layout_marginBottom="20dp"
+        android:gravity="center">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:maxLines="1"
+            android:singleLine="false"
+            android:editable="false"
+            android:textColor="#000000"
+            android:textSize="35dp"
+            android:gravity="center"
+            android:textAlignment="center"
+            android:background="@drawable/layer_line"
+            android:id="@+id/dial_numberText"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingLeft="30dp"
+            android:paddingRight="30dp"
+            android:gravity="center_horizontal">
+
+            <Button
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:text="1"
+                android:textSize="40sp"
+                android:textStyle="bold"
+                android:background="@drawable/circle"
+                android:id="@+id/dial_num1" />
+
+            <android.widget.Space
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"/>
+
+            <Button
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:text="2"
+                android:textSize="40sp"
+                android:textStyle="bold"
+                android:background="@drawable/circle"
+                android:id="@+id/dial_num2" />
+
+            <android.widget.Space
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"/>
+
+            <Button
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:text="3"
+                android:textSize="40sp"
+                android:textStyle="bold"
+                android:background="@drawable/circle"
+                android:id="@+id/dial_num3" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingLeft="30dp"
+            android:paddingRight="30dp"
+            android:gravity="center_horizontal">
+
+            <Button
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:text="4"
+                android:textSize="40sp"
+                android:textStyle="bold"
+                android:background="@drawable/circle"
+                android:id="@+id/dial_num4" />
+
+            <android.widget.Space
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"/>
+
+            <Button
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:text="5"
+                android:textSize="40sp"
+                android:textStyle="bold"
+                android:background="@drawable/circle"
+                android:id="@+id/dial_num5" />
+
+            <android.widget.Space
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"/>
+
+            <Button
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:text="6"
+                android:textSize="40sp"
+                android:textStyle="bold"
+                android:background="@drawable/circle"
+                android:id="@+id/dial_num6"
+                android:nestedScrollingEnabled="false" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingLeft="30dp"
+            android:paddingRight="30dp"
+            android:gravity="center_horizontal">
+
+            <Button
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:text="7"
+                android:textSize="40sp"
+                android:textStyle="bold"
+                android:background="@drawable/circle"
+                android:id="@+id/dial_num7" />
+
+            <android.widget.Space
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"/>
+
+            <Button
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:text="8"
+                android:textSize="40sp"
+                android:textStyle="bold"
+                android:background="@drawable/circle"
+                android:id="@+id/dial_num8" />
+
+            <android.widget.Space
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"/>
+
+            <Button
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:text="9"
+                android:textSize="40sp"
+                android:textStyle="bold"
+                android:background="@drawable/circle"
+                android:id="@+id/dial_num9" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingLeft="30dp"
+            android:paddingRight="30dp"
+            android:gravity="center_horizontal">
+
+            <Button
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:text="*"
+                android:textSize="40sp"
+                android:textStyle="bold"
+                android:background="@drawable/circle"
+                android:id="@+id/dial_star" />
+
+            <android.widget.Space
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"/>
+
+            <Button
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:text="0"
+                android:textSize="40sp"
+                android:textStyle="bold"
+                android:background="@drawable/circle"
+                android:id="@+id/dial_num0" />
+
+            <android.widget.Space
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"/>
+
+            <Button
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:text="#"
+                android:textSize="40sp"
+                android:textStyle="bold"
+                android:background="@drawable/circle"
+                android:id="@+id/dial_sharp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:paddingLeft="30dp"
+            android:paddingRight="30dp"
+            android:gravity="center_horizontal">
+
+            <Button
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:text="Call"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:background="@drawable/circle"
+                android:id="@+id/dial_call"/>
+
+            <android.widget.Space
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"/>
+
+            <Button
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:background="@drawable/sms"
+                android:id="@+id/dial_sms" />
+
+            <android.widget.Space
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"/>
+
+            <Button
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:background="@drawable/remove"
+                android:id="@+id/dial_remove" />
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>
